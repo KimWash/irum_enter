@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# 인천대학교 이룸관 도서관 출입증
+-----
+누더기같은 웹뷰로 만들어진 유사 앱이 맘에 안들어서 도서관 출입증 기능에만 집중한 웹앱을 만들게 되었어요.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 작동 원리
+인천대학교 도서관 API를 이용합니다. 생각보다 그렇게 꼬아서 개발되지 않았더라고요. 토큰 존재하면 로그인 시도를, 아니면 로그인 후 이용하게 개발했습니다.
 
-## Available Scripts
+### 해보고 싶은 것
+여기서 발전시켜서 RN/Flutter에서 인앱 위젯으로 만들고 싶네요.
 
-In the project directory, you can run:
+이제 iOS도 위젯에 버튼 만드는게 되니까 새로고침 눌러서 바코드 갱신하고.. 할 수 있는게 많을 듯 한데 전 이제 입대하니까 누가 좀 만들어주세요. App.js만 까보면 쉽게 만들 수 있어요..!
 
-### `npm start`
+### 보안이 걱정돼요 이녀석이 내 계정 털어가면 어쩌죠
+괜찮아요 그럴땐 포크떠서 본인이 서버를 여시면 됩니다! (간단하죠? 하핫) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 근데 진짜 좀 아쉬운거
+iOS는 배포도 귀찮고,, 여러가지 이유로 인해 그냥 리액트 웹앱으로 했는데 네이티브 앱으로 개발하거나 next.js 도입해서 성능 올려보고 싶긴 하네요? 제발 아무나 좀 해주세요 복학해서 편하게 도서관좀 다닙시다 이상한앱 안키고
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 스크린샷
+<img src="images/IMG_6198.PNG"/>
+<img src="images/IMG_6199.PNG"/>
+<img src="images/IMG_6200.jpg"/>
